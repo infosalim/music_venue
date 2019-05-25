@@ -3,14 +3,16 @@ import './resources/styles.css';
 
 import Header from './components/header_footer/Header';
 import Featured from './components/Featured/Index';
+import VenueInfo from './components/VenueInfo/Index';
 
 class App extends Component {
 
   render() {
     return (
-      <div className="App" style={{height: "30000px", background: "lightBlue"}}>
+      <div className="App">
         <Header/>
         <Featured />
+        <VenueInfo/>
       </div>
     );
   }
